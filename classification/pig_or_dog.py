@@ -21,9 +21,24 @@ reading = [1, 1, 1, -1, -1, -1] #marcações
 
 idk1 = [1, 1, 1] #i dont know (eu nao sei)
 idk2 = [1, 0, 0]
+idk3 = [0, 0, 1]
 
-teste = [idk1, idk2]
+testes = [idk1, idk2, idk3]
+reading_test = [-1, 1, -1]
 
 model = MultinomialNB()
 model.fit(data, reading) #treino
-print(model.predict(teste)) #resultado / previsao
+
+result = model.predict(testes) #preveja meu resultado do que não sei
+print(result)
+
+difference = result - reading_test #diferença
+
+hits = [d for d in difference if d==0] #acertos
+
+total_hits = len(hits) #quantidae de acertos
+total_elements = len(testes)  #quantidae total de elementos
+
+hit_rate = 100* total_hits / total_elements
+print(hit_rate) #taxa de acertos
+
