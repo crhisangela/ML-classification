@@ -4,7 +4,7 @@ def carregar_acessos():
     X = []
     Y = []
 
-    arquivo = open('acesso.csv', 'r')
+    arquivo = open('acesso.csv')
     leitor = csv.reader(arquivo)
 
     next(leitor)
