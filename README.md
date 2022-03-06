@@ -9,7 +9,7 @@ O projeto atual foi realizado visando se aprofundar mais nos estudos de Machine 
 - [Entendendo classificações](https://github.com/crhisangela/ML-classification/blob/main/classification/classificacao.py): Nessa parte foi inicializada o estudo de classificações do algoritmo pela diferenciação das características de porcos e cachorros;
 - [Importando dados CSV](https://github.com/crhisangela/ML-classification/blob/main/classification/dados.py): doc referente as funções e importações de dados
 - [Entendendo e criando o primeiro algoritmo](https://github.com/crhisangela/ML-classification/blob/main/classification/classifica_acessos.py): foi criado o primeiro algoritmo que preve qual usuário entraria na plataforma e compraria um plano
-- [Algoritmo identidade](https://github.com/crhisangela/ML-classification/blob/main/classification/classifica_acessos.py): foi criado um algoritmo genérico/identidade usando pandas pra manipular variáveis categóricas
+- [Algoritmo identidade](https://github.com/crhisangela/ML-classification/blob/main/classification/classifica_buscas.py): foi criado um algoritmo genérico/identidade usando pandas pra manipular variáveis categóricas
 
 
 
