@@ -42,3 +42,5 @@ total_elements = len(testes)  #quantidae total de elementos
 hit_rate = 100* total_hits / total_elements
 print(hit_rate) #taxa de acertos
 
+
+
